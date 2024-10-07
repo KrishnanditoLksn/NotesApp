@@ -58,13 +58,9 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
-    //ROOM
-    implementation(libs.androidx.room.runtime)
-    annotationProcessor(libs.androidx.room.compiler)
 
-    //KAPT ANNOTATION PROCESSOR
-    ksp(libs.androidx.room.compiler)
-    // To use Kotlin Symbol Processing (KSP)
+    implementation(libs.androidx.room.runtime)
+
     ksp(libs.androidx.room.compiler)
 
 
