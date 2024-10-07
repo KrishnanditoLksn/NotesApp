@@ -1,9 +1,10 @@
-package app.ditodev.notes
+package app.ditodev.notes.ui.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import app.ditodev.notes.R
 import app.ditodev.notes.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
